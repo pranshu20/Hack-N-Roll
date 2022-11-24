@@ -7,5 +7,5 @@ No.,Target, Source, Enumeration
 6, CustomerProfession, ENUM(.occupation), {"self-employed": "SELF""," "salaried": "FIXED INCOME""," "other": "MISC"}
 7, CustomerAge, .age, -
 8, LoanHistory.item.collateralValue, IF(.loanHistory.item.collateral) THEN .loanHistory.item.collateral.estimatedValues ELSE 0, -
-9, LoanHistory.item.interest, ANNUAL_COMPOUND_INTEREST(.loanHistory.item), -
+9, LoanHistory.item.interest, .loanHistory.item, -
 10, TotalAssets, .liquid_assets + .non_liquid_assets, -
