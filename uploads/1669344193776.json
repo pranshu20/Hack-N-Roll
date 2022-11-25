@@ -1,0 +1,54 @@
+{
+    "id": "122-34-6543",
+    "region": "NA",
+    "firstName": "Leanne",
+    "lastName": "Graham",
+    "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874"
+    },
+    "occupation": "self-employed",
+    "age": 29,
+    "loanHistory": [
+        {
+            "princicpal": 40000,
+            "periodInYears": "3",
+            "rateOfInterest": 10,
+            "collateral": [
+                {
+                    "assetName": "property",
+                    "estimatedValues": 70000
+                }
+            ]
+        },
+        {
+            "princicpal": 140000,
+            "periodInYears": "4",
+            "rateOfInterest": 12,
+            "isCommercial": true,
+            "collateral": [
+                {
+                    "assetName": "condo",
+                    "estimatedValues": 30000
+                },
+                {
+                    "assetName": "vehicle",
+                    "estimatedValues": 3000
+                }
+            ]
+        },
+        {
+            "princicpal": 60000,
+            "periodInYears": "4",
+            "rateOfInterest": 12,
+            "collateral": [
+                {
+                    "assetName": "jewellery",
+                    "estimatedValues": 30000
+                }
+            ]
+        }
+    ]
+}

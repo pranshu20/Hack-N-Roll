@@ -1,0 +1,13 @@
+{
+    "id": "122-34-6543",
+    "firstName": "Leanne",
+    "lastName": "Graham",
+    "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874"
+    },
+    "occupation": "self-employed",
+    "age": 29
+}

@@ -1,0 +1,9 @@
+No.,Target, Source, Enumeration
+1, SSN, ENUM(region) + "-" + .id, {"NA": "1"",""EU" : 2"," "AS": 3"," "AF": 4}
+2, CustomerFullName, .firstName + .lastName, -
+3, CustomerAddress, .address.street + .address.suite, -
+4, CustomerCity, .address.city, -
+5, CustomerZipCode, .address.zipcode, -
+6, CustomerProfession, ENUM(.occupation), {"self-employed": "SELF""," "salaried": "FIXED INCOME""," "other": "MISC"}
+7, CustomerAge, .age, -
+8, CommercialLoans, IF(.loanHistory.item.isCommercial == true) THEN [item], -

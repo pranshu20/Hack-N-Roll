@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="/css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HOME</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		
+	</head>
+	<body>
+        
+		<div class="container" id="container">
+			<div class="form-container log-in-container">
+				<form action="/uploadFile" method="POST" enctype="multipart/form-data">
+					
+					<label for="jsonInput" class="uploadlabel"> Choose JSON File</label>
+					<input type="file" name="jsonInput" required value="Choose file" />
+
+					<br>
+
+					<label for="csvInput" class="uploadlabel">Choose CSV File</label>
+                    <input type="file" name="csvInput" required value="choose file"/>
+                    <button type="submit">Convert JSON</button>
+
+					<div class="social-container">
+						<a class="social"><i class='fas fa-code fa-2x' style='color: red'></i></a>
+						<a class="social"><i class='fas fa-file-csv fa-3x'></i></a>
+					</div>
+                </form>
+
+
+			</div>
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-panel overlay-right">
+						<h1>JSON to JSON Generator</h1>
+						<p>This Converter is created for convert source JSON file into target JSON File based on required mapping</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
